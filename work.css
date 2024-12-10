@@ -1,0 +1,60 @@
+#header{
+    background-color: rgb(39, 171, 233);
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px; 
+    
+}
+#body{
+    background-color: lightgreen;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: whitesmoke; 
+}
+table th {
+    background-color: rgb(202, 25, 25); 
+    color: white; 
+    padding: 12px; 
+    text-align: left; 
+    border-right: 1px solid white;
+    border-bottom: 1px solid white; 
+
+}
+table td {
+    padding: 10px; 
+    border-right: 1px solid white;
+    border-bottom: 1px solid white; 
+}
+tr:hover td {
+    color: rgb(153, 1, 255); 
+    cursor: pointer;
+  }
+table {
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+tbody tr:nth-child(odd) {
+    background-color: grey
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(236, 167, 167); 
+  }
+#details{
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}

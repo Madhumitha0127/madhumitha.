@@ -1,0 +1,19 @@
+#name1{
+    background-color: blanchedalmond;
+    height: 40%;
+    width: 40%;
+}
+#name2{
+  
+    border: .5px  rgb(174, 219, 50) ;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+p{
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(27, 25, 134);
+}
